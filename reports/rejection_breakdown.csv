@@ -1,0 +1,10 @@
+reason,rows_rejected,pct_of_extracted
+non_positive_distance,213243,2.232
+non_positive_fare,127732,1.337
+duration_too_long,5434,0.057
+implausible_speed,2966,0.031
+non_positive_duration,2801,0.029
+distance_too_long,251,0.003
+pickup_outside_month,56,0.001
+too_many_passengers,44,0.0
+duplicate,1,0.0

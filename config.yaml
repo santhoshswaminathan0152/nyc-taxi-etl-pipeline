@@ -1,0 +1,19 @@
+# Pipeline configuration. Any key can be overridden with an env var, e.g. ETL_WAREHOUSE_PATH.
+trip_url_template: "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_{month}.parquet"
+zone_url: "https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv"
+raw_dir: "data/raw"
+warehouse_path: "data/warehouse.duckdb"
+download_retries: 3
+
+# Business rules for valid trips
+rules:
+  max_trip_hours: 6
+  max_distance_miles: 100
+  max_fare_usd: 1000
+  max_passengers: 6
+
+# Data quality thresholds: the run fails if any is violated
+quality:
+  min_rows: 1000
+  max_rejection_pct: 15.0
+  max_null_pct: 1.0

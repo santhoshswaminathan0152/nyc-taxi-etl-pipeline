@@ -1,0 +1,11 @@
+pickup_zone,dropoff_zone,trips,median_minutes
+Upper East Side South,Upper East Side North,63545,6.6
+Upper East Side North,Upper East Side South,56310,7.4
+Upper East Side North,Upper East Side North,44925,4.1
+Upper East Side South,Upper East Side South,41664,4.9
+Midtown Center,Upper East Side South,30674,8.3
+Lincoln Square East,Upper West Side South,26571,5.8
+Upper East Side South,Midtown Center,26385,8.4
+Upper West Side South,Lincoln Square East,26365,5.7
+Midtown Center,Upper East Side North,26149,12.2
+Upper West Side South,Upper West Side North,25281,4.8
